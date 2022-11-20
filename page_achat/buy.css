@@ -155,9 +155,11 @@ span {
 .avis :hover {
   transform: scale(1.02);
   box-shadow: 5px 0 15px 0 black;
-
 }
-
+.avis li img:hover {
+  transform: scale(2);
+  transition: all 0.5s;
+}
 .pub {
   border: solid 2px rgb(11, 11, 11);
   max-height: auto;

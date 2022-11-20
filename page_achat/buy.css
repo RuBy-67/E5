@@ -240,6 +240,10 @@ span {
   text-decoration: underline;
 }
 
+@media screen and (max-width: 1350px) {
+/*mise en page poyur tel*/
+}
+
 @media screen and (max-width: 156px) {
   body {
     margin-top: 550px;

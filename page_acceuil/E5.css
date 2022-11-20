@@ -1,0 +1,265 @@
+
+header {
+  margin-top: -20px;
+  margin-bottom: -15px;
+  margin-left: -15px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-size: 1.5rem;
+  background-color: rgb(36, 36, 36);
+  font-family: 'Nova Square', cursive;
+}
+header h1 {
+  margin-right: 2%;
+  margin-left: 2%;
+  text-align: center;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 1;
+  overflow:hidden;
+  background-color: #333;
+  margin-left: -2%;
+  margin-right: -2%;
+}
+
+.nav li {
+  float: left;
+  font-size: 1.2rem;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+.nav li a:hover {
+  background-color: #111;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.rotation :hover {
+  transform: rotate(10800deg);
+  transition: all 6s;
+
+}
+
+body{
+  margin-top:170px;
+  background-color: rgb(30, 30, 30);
+  font-family: 'Nova Square', cursive;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-evenly;
+}
+.article{
+  width: 320px;
+  border: solid 4px;
+  margin-bottom: 4%;
+  margin-right: 2%;
+  background-color: #111;
+  box-shadow: 5px 0 15px 0 black;
+}
+
+.link {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.image {
+  width:320px;
+}
+
+
+.Name {
+  font-size: 1.5rem;
+  margin-left: 5px;
+}
+.desc {
+  text-align: left;
+  font-size: 1rem;
+  margin-left: 5px;
+}
+
+.center {
+  text-align: center;
+}
+
+span {
+  font-weight: bold;
+  text-decoration:underline ;
+}
+
+.article:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0 10px 0 black;
+}
+
+.nav li a:hover {
+  transform: scale(1.05);
+}
+
+
+.footer {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  padding: 45px 50px;
+}
+
+.footer .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Footer links */
+
+.footer p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+.footer p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+
+
+.footer .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+
+}
+
+.footer .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #62696d;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition: all .25s;
+}
+
+.footer .footer-right a:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+
+.footer p.footer-links a:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 635px) {
+  body {
+    margin-top: 320px ;
+  }
+    .article {
+      width: 300px;
+      border: solid 4px;
+      margin-bottom: 4%;
+      background-color: #111;
+      box-shadow: 5px 0 15px 0 black;
+    }
+    .image {
+      width: 300px;
+     }
+    .rotation {
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+
+}
+
+@media screen and (max-width: 370px) {
+  body {
+    margin-top: 450px;
+  }
+
+  .article {
+    width: 190px;
+    border: solid 4px;
+    margin-bottom: 4%;
+    background-color: #111;
+    box-shadow: 5px 0 15px 0 black;
+  }
+
+  .image {
+    width: 190px;
+  }
+
+  .rotation {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+}
+
+@media screen and (max-width: 156px) {
+  body {
+    margin-top: 550px;
+  }
+
+  .article {
+    width: 150px;
+    border: solid 4px;
+    margin-bottom: 4%;
+    background-color: #111;
+    box-shadow: 5px 0 15px 0 black;
+  }
+
+  .image {
+    width: 150px;
+  }
+
+  .rotation {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+}
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgba(255, 166, 0, 0);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 0, 230);
+  border-radius: 6px;
+  border: 3px solid rgb(250, 146, 0);
+}
+

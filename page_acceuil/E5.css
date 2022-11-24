@@ -75,6 +75,7 @@ body{
   margin-right: 2%;
   background-color: #111;
   box-shadow: 5px 0 15px 0 black;
+  border-radius: 40px;
 }
 
 .link {
@@ -84,6 +85,7 @@ body{
 
 .image {
   width:320px;
+  border-radius: 35px 35px 0 0;
 }
 
 

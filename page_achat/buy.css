@@ -53,6 +53,16 @@ body {
   margin-top: 180px;
   background-color: rgb(30, 30, 30);
   font-family: 'Nova Square', cursive;
+  color: aliceblue;
+  height: auto;
+
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  
 }
 
 
@@ -66,9 +76,8 @@ body {
 
 }
 .flex {
-  display: flex;
-  color: aliceblue;
-  margin-bottom: 15px;
+  margin-bottom: auto;
+  width: 85%;
 
 }
 .article {
@@ -92,7 +101,7 @@ body {
   border: solid 2px rgb(11, 11, 11);
   padding-left: 15px;
   display: flex;
-  align-items: flex-end;
+  align-items:center;
 }
 
 .Desc {
@@ -110,10 +119,10 @@ span {
 }
  .buy {
     display: inline-block;
-      background-color: #7b38d8;
+      background-color: #f700ff;
       border-radius: 10px;
       border: 4px double #cccccc;
-      color: #eeeeee;
+      color: #ffffff;
       text-align: center;
       font-size: 15px;
       padding: 10px;
@@ -122,11 +131,11 @@ span {
       -o-transition: all 0.5s;
       transition: all 0.5s;
       cursor: pointer;
-      margin: 90px;
+      margin-right: 5px;
 
  }
 .buy:hover {
-  background-color: rgba(177, 12, 227, 0.946);
+  background-color: rgba(227, 105, 12, 0.946);
   transform: scale(1.05);
 }
 
@@ -162,15 +171,37 @@ span {
 }
 .pub {
   border: solid 2px rgb(11, 11, 11);
-  max-height: auto;
-  width: 15%;
+  background-color: #171818;
+  border-radius: 20px;
+  margin-top: 5px ;
+}
+
+.annonce {
+  width: 12%;
   text-align: center;
-  margin-left: 15px;
-  background-color: rgb(22, 22, 22);
+  margin-bottom: auto;
+  padding-bottom: 15px;
 }
 .y {
   margin-top: 10px;
 }
+
+.none {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+
+.bandeau{
+  border: solid 2px #111;
+  border-radius: 10px;
+  background-color: #313233;
+  margin: 10px 3px 15px 3px ;
+  text-align: center;
+  text-decoration: none;
+  color: aliceblue;
+}
+
 
 
 
@@ -240,19 +271,15 @@ span {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 1350px) {
-/*mise en page poyur tel*/
-}
-
 @media screen and (max-width: 156px) {
   body {
     margin-top: 550px;
   }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 380px) {
   body {
-    margin-top: 450px;
+    margin-top: 60%;
   }
 }
 

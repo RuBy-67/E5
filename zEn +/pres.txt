@@ -1,0 +1,1 @@
+sur la page buy, j'ai commencé avec des tableaux, en me disant sa, on l'a appris enc ours, alors pourquoi pas, mais je me suis ensuite rendus compte quez pour le rendre responsive, cela n'était pas 100% possible comme jke le souhaiter j'aiu donc fait des div, pour utiliser plus simplment les flexbox 

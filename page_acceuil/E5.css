@@ -44,6 +44,19 @@ header h1 {
 .nav li a:hover {
   background-color: #111;
 }
+.search {
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.search1 {
+  background-color: #111;
+  color: aliceblue;
+}
+.submit {
+  color: aliceblue;
+  background-color: rgb(235, 9, 201);
+}
 
 .fixed {
   position: fixed;
@@ -78,6 +91,10 @@ body{
   border-radius: 40px;
 }
 
+.center {
+  text-align: center;
+}
+
 .link {
   text-decoration: none;
   color: aliceblue;
@@ -99,9 +116,7 @@ body{
   margin-left: 5px;
 }
 
-.center {
-  text-align: center;
-}
+
 
 span {
   font-weight: bold;

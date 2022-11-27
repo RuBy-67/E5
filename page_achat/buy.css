@@ -11,8 +11,9 @@ header {
 }
 
 header h1 {
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 2%;
+  margin-left: 2%;
+  text-align: center;
 }
 
 .nav {
@@ -46,6 +47,7 @@ header h1 {
 .fixed {
   position: fixed;
   top: 0;
+  z-index: 999;
   width: 100%;
 }
 
@@ -55,7 +57,7 @@ body {
   font-family: 'Nova Square', cursive;
   color: aliceblue;
   height: auto;
-
+  width: 100%;
 }
 
 section {
@@ -138,7 +140,7 @@ span {
   -o-transition: all 0.5s;
   transition: all 0.5s;
   cursor: pointer;
-  margin-right: 5px;
+  margin-right: 20px;
 
 }
 
@@ -223,7 +225,6 @@ span {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
-  text-align: left;
   padding: 45px 50px;
 }
 
@@ -284,16 +285,44 @@ span {
   text-decoration: underline;
 }
 
+@media screen and (max-width: 895px) {
+
+  .annonce {
+    display: none;
+  }
+    ul.nav {
+      padding: 0;
+    }
+    .flex {
+      width: 100%;
+      align-items: center;
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+
+}
+
 @media screen and (max-width: 156px) {
   body {
     margin-top: 550px;
   }
+
+  .annonce {
+    display: none;
+  }
+
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 442px) {
   body {
-    margin-top: 60%;
+    margin-top: 200px;
   }
+
+    .annonce {
+      display: none;
+    }
+
+
 }
 
 *::-webkit-scrollbar {

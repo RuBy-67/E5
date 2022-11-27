@@ -47,6 +47,7 @@ header h1 {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 999;
 }
 
 body {
@@ -154,6 +155,14 @@ body {
 @media screen and (max-width: 370px) {
   body {
     margin-top: 450px;
+  }
+    ul.nav {
+      padding: 0;
+    }
+}
+@media screen and (max-width: 870px) {
+  ul.nav {
+    padding: 0;
   }
 }
 

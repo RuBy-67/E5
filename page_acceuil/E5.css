@@ -27,6 +27,7 @@ header h1 {
   margin-right: -2%;
 }
 
+
 .nav li {
   float: left;
   font-size: 1.2rem;
@@ -60,6 +61,7 @@ header h1 {
 
 .fixed {
   position: fixed;
+  z-index: 999;
   top: 0;
   width: 100%;
 }
@@ -84,8 +86,9 @@ body{
 .article{
   width: 320px;
   border: solid 4px;
-  margin-bottom: 4%;
-  margin-right: 2%;
+  margin-bottom: 2%;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
   background-color: #111;
   box-shadow: 5px 0 15px 0 black;
   border-radius: 40px;
@@ -216,6 +219,9 @@ span {
       margin-right: 5px;
       margin-left: 5px;
     }
+        ul.nav {
+          padding: 0;
+        }
 
 }
 
@@ -239,6 +245,10 @@ span {
   .rotation {
     margin-right: 5px;
     margin-left: 5px;
+  }
+
+  .nav {
+    align-items: center;
   }
 
 }

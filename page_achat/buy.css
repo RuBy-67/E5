@@ -57,13 +57,14 @@ body {
   height: auto;
 
 }
+
 section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   width: 100%;
   margin-bottom: 15px;
-  
+
 }
 
 
@@ -76,11 +77,13 @@ section {
   transition: all 6s;
 
 }
+
 .flex {
   margin-bottom: auto;
   width: 85%;
 
 }
+
 .article {
   width: 100%;
 }
@@ -98,11 +101,12 @@ section {
   font-weight: bolder;
   background-color: rgb(13, 13, 13);
 }
+
 .Info {
   border: solid 2px rgb(11, 11, 11);
   padding-left: 15px;
   display: flex;
-  align-items:center;
+  align-items: center;
 }
 
 .Desc {
@@ -113,28 +117,31 @@ section {
 span {
   font-weight: bold;
   text-decoration: underline;
-  
+
 }
+
 .Description span {
   color: rgb(146, 74, 74);
 }
- .buy {
-    display: inline-block;
-      background-color: #f700ff;
-      border-radius: 10px;
-      border: 4px double #cccccc;
-      color: #ffffff;
-      text-align: center;
-      font-size: 15px;
-      padding: 10px;
-      -webkit-transition: all 0.5s;
-      -moz-transition: all 0.5s;
-      -o-transition: all 0.5s;
-      transition: all 0.5s;
-      cursor: pointer;
-      margin-right: 5px;
 
- }
+.buy {
+  display: inline-block;
+  background-color: #f700ff;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-right: 5px;
+
+}
+
 .buy:hover {
   background-color: rgba(227, 105, 12, 0.946);
   transform: scale(1.05);
@@ -153,8 +160,9 @@ span {
   margin-left: 15px;
   max-height: 200px;
 }
+
 .avis li {
-  border: solid 2px rgb(11,11,11);
+  border: solid 2px rgb(11, 11, 11);
   border-radius: 20px;
   box-shadow: 5px 0 15px 0 black;
   list-style: none;
@@ -162,19 +170,22 @@ span {
   width: 80%;
   padding: 15px;
 }
+
 .avis :hover {
   transform: scale(1.02);
   box-shadow: 5px 0 15px 0 black;
 }
+
 .avis li img:hover {
   transform: scale(2);
   transition: all 0.5s;
 }
+
 .pub {
   border: solid 2px rgb(11, 11, 11);
   background-color: #171818;
   border-radius: 20px;
-  margin-top: 5px ;
+  margin-top: 5px;
 }
 
 .annonce {
@@ -183,6 +194,7 @@ span {
   margin-bottom: auto;
   padding-bottom: 15px;
 }
+
 .y {
   margin-top: 10px;
 }
@@ -193,11 +205,11 @@ span {
 }
 
 
-.bandeau{
+.bandeau {
   border: solid 2px #111;
   border-radius: 10px;
   background-color: #313233;
-  margin: 10px 3px 15px 3px ;
+  margin: 10px 3px 15px 3px;
   text-align: center;
   text-decoration: none;
   color: aliceblue;
@@ -297,6 +309,7 @@ span {
   border-radius: 6px;
   border: 3px solid rgba(250, 146, 0, 0.8);
 }
+
 /*Pour les avis*/
 .notation::-webkit-scrollbar {
   width: 12px;

@@ -82,9 +82,10 @@ body{
   flex-wrap: wrap;
   list-style: none;
   justify-content: space-evenly;
+
 }
 .article{
-  width: 320px;
+  width: 300px;
   border: solid 4px;
   margin-bottom: 2%;
   margin-right: 0.5%;
@@ -92,11 +93,24 @@ body{
   background-color: #111;
   box-shadow: 5px 0 15px 0 rgb(34, 0, 35);
   border-radius: 40px;
+  position: relative;
 }
 
 .center {
-  text-align: center;
+  text-align:right;
+  margin-bottom: 0px;
+  position: absolute;
+  top: 0px;
+  right: 5px;
 }
+
+.star {
+  position: absolute;
+  top: 280px;
+  right: 0;
+}
+
+
 
 .link {
   text-decoration: none;
@@ -104,7 +118,8 @@ body{
 }
 
 .image {
-  width:320px;
+  width:300px;
+  height: 300px;
   border-radius: 35px 35px 0 0;
 }
 

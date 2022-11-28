@@ -90,7 +90,7 @@ body{
   margin-right: 0.5%;
   margin-left: 0.5%;
   background-color: #111;
-  box-shadow: 5px 0 15px 0 black;
+  box-shadow: 5px 0 15px 0 rgb(34, 0, 35);
   border-radius: 40px;
 }
 
@@ -127,8 +127,9 @@ span {
 }
 
 .article:hover {
-  transform: scale(1.04);
-  box-shadow: 0 0 10px 0 black;
+  transform: scale(1.03);
+  box-shadow: 0 0 10px 0 rgba(255, 0, 230);
+  transition: ease .35s;
 }
 
 .nav li a:hover {
